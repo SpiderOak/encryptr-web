@@ -34,6 +34,12 @@ For both upon filechange in /src:
 make watch
 ````
 
+If you need to kill the serving container (automatically run on other commands):
+
+````
+make kill
+````
+
 In the interest of multi-platform ability,
 the use of `sudo` is required in the Makefile,
 so you will have to type in an administrator password.
