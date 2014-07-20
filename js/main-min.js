@@ -1,1 +1,1 @@
-$(function(){$("body").backstretch("images/wood-background.jpg")});
+// $(function(){$("body").backstretch("images/placeit2.jpg")});
