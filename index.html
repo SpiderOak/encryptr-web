@@ -1,81 +1,174 @@
-<!doctype html>
-<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Encryptr, Powered by Crypton</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <meta name="description" content="Encryptr is an open source, ‘zero-knowledge’, cloud-based password manager, key/value store and e-wallet." />
+    <title>Encryptr - Powered by Crypton</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/gh-fork-ribbon.css" rel="stylesheet">
 
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
 
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen">
-  <![endif]-->
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-  <!-- Typekit -->
-  <script type="text/javascript" src="//use.typekit.net/xba6rxf.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <link href="css/gh-fork-ribbon.ie.css" rel="stylesheet">
+    <![endif]-->
+
 </head>
 
-<body id="encryptr">
-  <div class="wrapper">
-    <div class="container">
-
-    <div class="row">
-      <div>
-        <img src="images/icon-encryptr.png" height="150" width="150">
-        <h1 class="ir logo">Encrpytr</h1>
-      </div>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- GitHub Fork -->
+    <div class="github-fork-ribbon-wrapper right-bottom">
+        <div class="github-fork-ribbon">
+            <a target="_blank" href="https://github.com/devgeeks/Encryptr">Fork me on GitHub</a>
+        </div>
     </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><span class="light">Encryptr</span></a>
+            </div>
 
-    <div class="row">
-      <p class="description col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">An open source, ‘Zero-Knowledge’, cloud-based password manager, key/value store and e-wallet.</p>
-    </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <img class="logo" src="./img/logo.png" />
+                        <h1 class="brand-heading">Encryptr</h1>
+                        <p class="intro-text">A free, open source, zero-knowledge, cloud-based password manager, key/value store, and e-wallet.</p>
+                        <a href="#about" class="btn btn-circle page-scroll"><i class="fa fa-angle-double-down animated"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <div class="row buttons" style="visibility:hidden">
-        <a href="#" class="app-store coming-soon"><img src="images/btn-app-store-coming-soon.png" height="52" width="155" alt="Available on the App Store"></a>
-        <a href="##" class="google-play"><img src="images/btn-google-play.png" height="51" width="153" alt="Get it on Google Play"></a>
-        <a href="##" class="desktop-app coming-soon"><img src="images/btn-desktop-coming-soon.png" height="52" width="155" alt="Get it for Desktop"></a>
-      </div>
+    <!-- About Section -->
+    <section id="about" class="container content-section">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Encryptr</h2>
+                <p>Encryptr provides users with a simple and easy-to-use cloud-based repository for confidential information, such as passwords, credit card data, PINs, or access codes, which users can pull up quickly on a mobile device. Because it was built on the zero-knowledge <a href="https://crypton.io">Crypton framework</a>, Encryptr ensures that only the user, not the cloud storage provider or any third party, has the ability to access or read the confidential information. Unlike other zero-knowledge password managers, Encryptr is free and open source, delivering a level of transparency that proprietary solutions cannot match.</p>
+                <p>Encryptr allows users to securely access stored passwords and other confidential data from a single account – across <a href="#download">Android, Windows, or Mac OS X</a> – from the cloud no matter where they are.</p>
+                <p>Encryptr is also completely open source, and <a href="https://github.com/devgeeks/Encryptr">available on GitHub</a></p>
+            </div>
+        </div>
+    </section>
 
-    <div class="row images">
-      <div class="notebook"></div>
-      <div class="iphone"></div>
-      <div class="android"></div>
-    </div>
-  </div>
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Download Encryptr</h2>
+                    <p>You can download Encryptr 1.0.0-beta.6 for your platform of choice below:</p>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">Android</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-windows fa-fw"></i> <span class="network-name">Windows</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-apple fa-fw"></i> <span class="network-name">Mac OS X</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- GitHub Fork -->
-    <a href="https://github.com/devgeeks/Encryptr"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Devgeeks</h2>
+                <p>Have something to say about Encryptr? Say it to my face! ;)</p>
+                <p><a href="mailto:tommy@devgeeks.org">tommy@devgeeks.org</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/theRealDevgeeks" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/devgeeks" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+TommyWilliams-Devgeeks/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-    </div> <!-- .container -->
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Devgeeks 2014</p>
+        </div>
+    </footer>
 
-  <div class="row sponsored">
-    <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-      <a class="crypton" href="http://crypton.io." target="_blank"><img src="images/logo-crypton.png" height="43" width="124" alt="Crypton logo"> Powered by<br/><strong>Crypton</strong></a>
-    </div>
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
 
-  </div>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-  <footer>
-    Copyright &copy; 2014 Devgeeks. All Rights Reserved.
-  </footer>
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
 
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
-  <!-- Scripts -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-  <script src="js/plugins-min.js"></script>
-  <script src="js/main-min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
 
 </body>
+
 </html>
