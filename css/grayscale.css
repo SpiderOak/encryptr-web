@@ -430,6 +430,11 @@ a:focus {
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
+.intro .intro-body .intro-text.get-it-now {
+  color: orange;
+  margin-bottom: 0;
+  font-weight: bold;
+}
 @media (min-width: 767px) {
   .intro {
     height: 100%;
