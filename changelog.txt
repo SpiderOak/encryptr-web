@@ -1,0 +1,17 @@
+2014-08-05	v1.0.1	Tommy-Carlos Williams	tommy@devgeeks.org
+
+	* [Enhancement] - All: App now notifies users when updated versions are
+	available
+	* [Security] - Android: Passphrase input on registration screen no longer
+	shows suggestions when input is hidden
+	* [Security] - Android: Updates for Apache Cordova security fixes:
+	http://cordova.apache.org/announcements/2014/08/04/android-351.html
+	* [Enhancement] - Windows: installer now allows users to choose their
+	installation location
+	* [Platform] - Linux: Debian-based 32bit and 64bit installer packages (.deb)
+	added
+	* [Platform] - Linux: "Other" simple 32bit and 64bit (tar.gz) package added
+
+2014-07-28	v1.0.0	Tommy-Carlos Williams	tommy@devgeeks.org
+
+	* Initial release

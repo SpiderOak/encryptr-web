@@ -1,1 +1,0 @@
-$(function(){$("body").backstretch("images/wood-background.jpg")});
